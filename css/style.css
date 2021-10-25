@@ -1,0 +1,27 @@
+#navbar {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 50px;
+  margin-top: 0;
+}
+#welcome-section {
+  background-color: turquoise;
+  color: violet;
+  height: 100vh;
+  width: auto;
+}
+#projects {
+  margin-top: 10px;
+  height: 350px;
+  width: 300px;
+  background-color: lightgrey;
+}
+#project-title {
+  font-size: 36px;
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
