@@ -1,28 +1,30 @@
 #navbar {
   background-color: black;
   color: white;
-  position: sticky;
-  top: 0;
-  left: 0;
   height: 50px;
   margin-top: 0;
+  margin-bottom: 0;
   position: fixed;
+  top: 0;
 }
 #welcome-section {
-  background-color: turquoise;
-  color: violet;
+  background-color: rgb(200, 226, 224);
+  color: rgb(24, 3, 24);
   height: 100vh;
   width: auto;
+  margin-top: 0;
 }
 #projects {
   margin-top: 10px;
-  height: 350px;
-  width: 300px;
-  background-color: lightgrey;
+  height: 100vh;
+  width: auto;
+  background-color: rgb(248, 244, 244);
 }
 #project-title {
   font-size: 36px;
-  @media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 768px) {
+  #project-title {
     font-size: 24px;
   }
 }
